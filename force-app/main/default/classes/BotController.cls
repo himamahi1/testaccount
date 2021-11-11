@@ -14,7 +14,11 @@ public with sharing class BotController {
     
     static List<HandlerMapping> handlerMappings;
     //test purpose 1
+<<<<<<< HEAD
 	//hima test 112
+=======
+	//hima test 1
+>>>>>>> 38a152c2eacbab35a90b0de388b519b596824250
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);
